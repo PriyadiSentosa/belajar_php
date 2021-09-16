@@ -46,19 +46,20 @@ class kucing
     public $kaki;
     public $warna;
 
+    
     public function kakinya($nama ,$kaki,$warna)
     {
         if ($kaki == 3) {
             echo "Nama Kucing : " . $nama . "<br>";
-            echo "Jumlah Kaki : " . $kaki . " cingked <br>";
+            echo "Jumlah Kaki : " . $kaki . " cingked Bray<br>";
             echo "Warna Kucing : " . $warna;
         } else if ($kaki == 4) {
             echo "Nama Kucing : " . $nama . "<br>";
-            echo "Jumlah Kaki: " . $kaki . " normal <br>";
+            echo "Jumlah Kaki: " . $kaki . " Normal Alus<br>";
             echo "Warna Kucing : " . $warna . " ";
         } else if ($kaki == 5) {
             echo "Nama Kucing : " . $nama . "<br>";
-            echo "Jumlah Kaki : " . $kaki . " Siluman <br>";
+            echo "Jumlah Kaki : " . $kaki . " Siluman Siah Boy<br>";
             echo "Warna Kucing : " . $warna;
         }
 
